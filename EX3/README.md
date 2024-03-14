@@ -1,7 +1,7 @@
 EX3:
 
 En conclusion, l'application Java RMI avec un serveur dynamique et un client a été mise en œuvre avec succès.
-Voici les points clés :
+
 
 1. **Interface de l'objet callback** :
    - L'interface `ICallback` définit la méthode `doCallback` que le serveur appellera pour effectuer un rappel vers le client.
