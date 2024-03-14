@@ -9,6 +9,7 @@ La sécurité a été prise en compte grâce au gestionnaire de sécurité RMI.
 En résumé, cette application offre une communication sécurisée et flexible entre les clients et le serveur, tout en optimisant l'utilisation des ressources .  
 
 Question b:
+
 En conclusion, l'implémentation réussie d'une application Java RMI avec chargement dynamique de classes a été réalisée. 
 Le client, renommé en `DynamicClient`, est capable de charger les classes nécessaires à partir d'un emplacement distant spécifié. 
 L'utilisation du Stub généré permet une communication transparente entre le client et l'objet distant. En résumé, cette approche offre une flexibilité accrue dans la gestion des classes et des objets distants dans une application RMI distribuée  . 
@@ -31,7 +32,7 @@ En conclusion, lors de la mise en œuvre de notre application Java RMI avec char
    - Nous avons lancé le client dynamique avec les mêmes paramètres de sécurité et d'URL des fichiers de classe.
    - Par exemple :
      ```
-     java -Djava.security.policy=client.policy -Djava.rmi.server.codebase=file:///home/louati1/IF4/TP5/Reverse1/www/ DynamicClient Bonjour IF4
+     java -Djava.security.policy=client.policy -Djava.rmi.server.codebase=file:///home/louati1/IF4/TP5/Reverse1/www/ DynamicClient Bonjour If4
      ```
 
 En résumé, l'hébergement des classes sur un serveur Web (ou dans un dossier local) permet une gestion efficace des ressources et une communication sécurisée entre le serveur et les clients dans notre application RMI distribuée .
