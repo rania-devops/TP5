@@ -1,5 +1,7 @@
 EX2:
+
 Question a:
+
 En conclusion, l'implémentation réussie de l'application Java RMI pour inverser une chaîne de caractères (ReverseVersion2) avec une usine (Factory) et un gestionnaire de sécurité a été réalisée. 
 Le serveur et le client ont été rendus dynamiques, permettant un chargement flexible des classes à partir d'un emplacement distant.
 Le serveur, renommé en `DynamicReverseServer`, a été configuré pour charger dynamiquement les classes nécessaires à partir d'une URL spécifiée. 
