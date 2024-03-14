@@ -26,6 +26,7 @@ En conclusion, pour mettre en œuvre une application RMI avec chargement dynamiq
    - En utilisant l'interface distante et l'objet distant, nous avons créé une application RMI qui peut être exécutée sur différentes machines.
    - La sécurité est prise en compte grâce aux classes `java.rmi.RMISecurityManager` et `java.rmi.server.RMIClassLoader`.
    - La compilation des classes est essentielle pour générer les fichiers de classe exécutables nécessaires à l'exécution de l'application.
+     
  ----------generations des stubs
 
    - Le Stub est généré automatiquement à l'aide de l'outil `rmic` (ou `rmiregistry`).
